@@ -346,11 +346,3 @@ Para parar, clique em `Parar leitura recorrente`.
    * Porta: `502`
 4. Clique em `Conectar`.
 5. Realize os testes de leitura e escrita usando os campos da interface.
-
-## Observações
-
-As pastas `.venv` não devem ser enviadas para o repositório. Elas podem ser recriadas utilizando os arquivos `requirements.txt`.
-
-O servidor incluído no projeto é apenas um servidor de teste para validar a comunicação Modbus TCP com o cliente gráfico.
-
-O repositório contém o código da aplicação gráfica em KivyMD, a classe de comunicação Modbus reutilizada da última aula, o servidor Modbus de teste, os arquivos `requirements.txt`, o arquivo `README.md` com instruções de execução e o arquivo `.gitignore`.
